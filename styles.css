@@ -1,0 +1,108 @@
+*{
+    font-family: 'Poppins';
+}
+.header {
+    overflow: hidden;
+    background-color: #37517e;
+    padding: 10px 70px;
+  }
+
+
+
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 12px;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 40px;
+  }
+
+   /* Change the background color on mouse-over */
+  .header a.logo:hover {
+    color: white;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    color: #418dbd;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    margin: 0 60px;
+    justify-content: space-between;
+    float: right;
+    padding: 13px;
+    display: flex;
+  }
+
+  .header-right a{
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  .header-right a.dropdown-item{
+    color:#000000;
+  }
+
+  .header-right a.dropdown-item:hover{
+    color:rgb(37, 150, 190);
+    background-color: white;
+  }
+
+  .header-right a.dropdown-menu{
+    color:#000000;
+  }
+
+  .header-right a.dropdown-menu:hover{
+    color:rgb(37, 150, 190);
+  }
+
+
+  .header-right a.getStarted{
+    border: 1px solid rgb(37, 150, 190);
+    border-radius: 1rem;
+    color: white;
+    background-color: #37517e;
+  }
+
+  .header a.getStarted:hover {
+    background-color:rgb(37, 150, 190);
+  }
+
+  .row{
+    color: white;
+    background-color:  #37517e;
+    height: 65vh;
+    width: vw;
+    padding: 50px 120px ;
+    text-align: left;
+  }
+
+  .row button{
+    background-color:  rgb(37, 150, 190);
+    border: 1px solid rgb(37, 150, 190);
+    border-radius: 1rem;
+    padding: 5px 20px;
+    color: white;
+  }
+
+  .row h6{
+    color: rgb(203, 192, 192);
+  }
+
+  @media screen and (max-width:480px) {  
+    .row img {
+      display: none;
+    }
+  }
